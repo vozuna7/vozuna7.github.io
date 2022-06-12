@@ -40,7 +40,7 @@ element {
         animation: heartbeat 5s infinite;
     }
     .imagen-chiki {
-     width: 100%;
+    
       object-fit: fill;
     }
 }
