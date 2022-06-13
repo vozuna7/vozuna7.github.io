@@ -38,3 +38,6 @@ var options2 = {
 const typedo = new Typed('.typedo', options2);
 
 
+
+
+

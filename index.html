@@ -9,6 +9,9 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -200,18 +203,29 @@
             </h6>
         </div>
         <section class="mt-3">
+
             <div class="container">
-                <div class="row">
+                <div class="row container">
                     <div class="col">
+                        <div class="corazones ps-sm-5 ms-sm-5">
+                            <div class="one"></div>
+                            <div class="two"></div>
+                            <div class="three"></div>
+                            <div class="four"></div>
+                            <div class="five"></div>
+                        </div>
                         <img src="img/bren/bebe_dora.jpg" class="imagen-chiki">
+
                     </div>
+
                     <div class="col">
                         <div class="accordion" id="accordionExample">
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    <button class="accordion-button fondo-rosa" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                         ¿Quien es?
+                                        <img src="img/iconos/mymelody_happy.ico" height="32px" width="32px">
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
@@ -229,9 +243,11 @@
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <button class="accordion-button collapsed fondo-rosa" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                        aria-controls="collapseTwo">
                                         ¿De donde es?
+                                        <img src="img/iconos/mymelody_sorprendida.ico" height="32px" width="32px">
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
@@ -245,10 +261,11 @@
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                    <button class="accordion-button collapsed fondo-rosa" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
                                         ¿Que le gusta?
+                                        <img src="img/iconos/mymelody_ilusionada.ico" height="32px" width="32px">
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse"
@@ -264,11 +281,32 @@
                     </div>
                 </div>
             </div>
+
+        </section>
+        <section class="mt-4">
+            <div class="card mb-3 container p-0 fondo-carta">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="img/mesiversario.gif" class="img-thumbnail img-fluid rounded-start">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title text-white">¡TE AMO BRENDA!</h5>
+                            <p class="card-text carta fs-4 fw-bolder text-white">Llegó el momento de decirte que me has dado 2 meses de relación
+                                increibles, he sido muy feliz junto a vos mi pequeña princesa y me he acostumbrado a
+                                dedicarte cada segundo disponible de mi dia para darte mensajes bonitos y bobos así recordás que te aprecio mucho 
+                                y que siempre voy a estar ahí para cuidar a mi niña especial
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
 
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
